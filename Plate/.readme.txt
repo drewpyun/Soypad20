@@ -1,0 +1,2 @@
+note: plate/case dimensions are mapped to my printers own exact dimensions 
+You might need to play around with the dimensions of the switch holes slightly to compensate for your own printers offsets.

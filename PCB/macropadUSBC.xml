@@ -1,0 +1,849 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\Fireo\Desktop\pcb\USBCmacropad\macropadUSBC.sch</source>
+    <date>6/5/2020 0:15:19</date>
+    <tool>Eeschema (5.1.6)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>macropadUSBC.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="X1">
+      <value>Crystal</value>
+      <footprint>keyboard_parts:FA-238</footprint>
+      <libsource lib="macropadUSBC-rescue" part="XTAL_GND-keyboard_parts" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ED01976</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ED08EC1</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ED09F70</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>4.7u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ED22C5C</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <libsource lib="macropadUSBC-rescue" part="R-keyboard_parts" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ED61982</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <libsource lib="macropadUSBC-rescue" part="R-keyboard_parts" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ED57F8B</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>22</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <libsource lib="macropadUSBC-rescue" part="R-keyboard_parts" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ED7AB31</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>22</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <libsource lib="macropadUSBC-rescue" part="R-keyboard_parts" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ED7A4C3</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_PUSH</value>
+      <footprint>Button_Switch_SMD:SW_SPST_TL3342</footprint>
+      <libsource lib="macropadUSBC-rescue" part="SW_PUSH-keyboard_parts" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ED56442</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>22p</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ED05365</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>22p</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ED05AE7</tstamp>
+    </comp>
+    <comp ref="ATMEGA32U2">
+      <value>ATMEGA32U2</value>
+      <footprint>keyboard_parts:QFP32_reflow</footprint>
+      <libsource lib="macropadUSBC-rescue" part="ATMEGA32U2-keyboard_parts" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ED2A69D</tstamp>
+    </comp>
+    <comp ref="K1">
+      <value>KEYSW</value>
+      <footprint>keebs:Mx_Alps_100</footprint>
+      <libsource lib="macropadUSBC-rescue" part="KEYSW-keyboard_parts" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ED9A86B</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>D</value>
+      <footprint>keyboard_parts:D_SOD123_axial</footprint>
+      <libsource lib="macropadUSBC-rescue" part="D-keyboard_parts" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ED9ADCF</tstamp>
+    </comp>
+    <comp ref="K2">
+      <value>KEYSW</value>
+      <footprint>keebs:Mx_Alps_100</footprint>
+      <libsource lib="macropadUSBC-rescue" part="KEYSW-keyboard_parts" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EDA6597</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>D</value>
+      <footprint>keyboard_parts:D_SOD123_axial</footprint>
+      <libsource lib="macropadUSBC-rescue" part="D-keyboard_parts" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EDA659D</tstamp>
+    </comp>
+    <comp ref="K3">
+      <value>KEYSW</value>
+      <footprint>keebs:Mx_Alps_100</footprint>
+      <libsource lib="macropadUSBC-rescue" part="KEYSW-keyboard_parts" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EDAE1D1</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>D</value>
+      <footprint>keyboard_parts:D_SOD123_axial</footprint>
+      <libsource lib="macropadUSBC-rescue" part="D-keyboard_parts" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EDAE1D7</tstamp>
+    </comp>
+    <comp ref="K4">
+      <value>KEYSW</value>
+      <footprint>keebs:Mx_Alps_100</footprint>
+      <libsource lib="macropadUSBC-rescue" part="KEYSW-keyboard_parts" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EDB0114</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>D</value>
+      <footprint>keyboard_parts:D_SOD123_axial</footprint>
+      <libsource lib="macropadUSBC-rescue" part="D-keyboard_parts" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EDB011A</tstamp>
+    </comp>
+    <comp ref="K5">
+      <value>KEYSW</value>
+      <footprint>keebs:Mx_Alps_100</footprint>
+      <libsource lib="macropadUSBC-rescue" part="KEYSW-keyboard_parts" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EDB1E00</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>D</value>
+      <footprint>keyboard_parts:D_SOD123_axial</footprint>
+      <libsource lib="macropadUSBC-rescue" part="D-keyboard_parts" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EDB1E06</tstamp>
+    </comp>
+    <comp ref="K6">
+      <value>KEYSW</value>
+      <footprint>keebs:Mx_Alps_100</footprint>
+      <libsource lib="macropadUSBC-rescue" part="KEYSW-keyboard_parts" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EDCEAB8</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>D</value>
+      <footprint>keyboard_parts:D_SOD123_axial</footprint>
+      <libsource lib="macropadUSBC-rescue" part="D-keyboard_parts" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EDCEABE</tstamp>
+    </comp>
+    <comp ref="K7">
+      <value>KEYSW</value>
+      <footprint>keebs:Mx_Alps_100</footprint>
+      <libsource lib="macropadUSBC-rescue" part="KEYSW-keyboard_parts" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EDCEAC6</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>D</value>
+      <footprint>keyboard_parts:D_SOD123_axial</footprint>
+      <libsource lib="macropadUSBC-rescue" part="D-keyboard_parts" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EDCEACC</tstamp>
+    </comp>
+    <comp ref="K8">
+      <value>KEYSW</value>
+      <footprint>keebs:Mx_Alps_100</footprint>
+      <libsource lib="macropadUSBC-rescue" part="KEYSW-keyboard_parts" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EDCEAD5</tstamp>
+    </comp>
+    <comp ref="D8">
+      <value>D</value>
+      <footprint>keyboard_parts:D_SOD123_axial</footprint>
+      <libsource lib="macropadUSBC-rescue" part="D-keyboard_parts" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EDCEADB</tstamp>
+    </comp>
+    <comp ref="K9">
+      <value>KEYSW</value>
+      <footprint>keebs:Mx_Alps_100</footprint>
+      <libsource lib="macropadUSBC-rescue" part="KEYSW-keyboard_parts" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EDCEAE4</tstamp>
+    </comp>
+    <comp ref="D9">
+      <value>D</value>
+      <footprint>keyboard_parts:D_SOD123_axial</footprint>
+      <libsource lib="macropadUSBC-rescue" part="D-keyboard_parts" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EDCEAEA</tstamp>
+    </comp>
+    <comp ref="K10">
+      <value>KEYSW</value>
+      <footprint>keebs:Mx_Alps_100</footprint>
+      <libsource lib="macropadUSBC-rescue" part="KEYSW-keyboard_parts" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EDCEAF3</tstamp>
+    </comp>
+    <comp ref="D10">
+      <value>D</value>
+      <footprint>keyboard_parts:D_SOD123_axial</footprint>
+      <libsource lib="macropadUSBC-rescue" part="D-keyboard_parts" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EDCEAF9</tstamp>
+    </comp>
+    <comp ref="K11">
+      <value>KEYSW</value>
+      <footprint>keebs:Mx_Alps_100</footprint>
+      <libsource lib="macropadUSBC-rescue" part="KEYSW-keyboard_parts" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EDD6F6D</tstamp>
+    </comp>
+    <comp ref="D11">
+      <value>D</value>
+      <footprint>keyboard_parts:D_SOD123_axial</footprint>
+      <libsource lib="macropadUSBC-rescue" part="D-keyboard_parts" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EDD6F73</tstamp>
+    </comp>
+    <comp ref="K12">
+      <value>KEYSW</value>
+      <footprint>keebs:Mx_Alps_100</footprint>
+      <libsource lib="macropadUSBC-rescue" part="KEYSW-keyboard_parts" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EDD6F7B</tstamp>
+    </comp>
+    <comp ref="D12">
+      <value>D</value>
+      <footprint>keyboard_parts:D_SOD123_axial</footprint>
+      <libsource lib="macropadUSBC-rescue" part="D-keyboard_parts" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EDD6F81</tstamp>
+    </comp>
+    <comp ref="K13">
+      <value>KEYSW</value>
+      <footprint>keebs:Mx_Alps_100</footprint>
+      <libsource lib="macropadUSBC-rescue" part="KEYSW-keyboard_parts" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EDD6F8A</tstamp>
+    </comp>
+    <comp ref="D13">
+      <value>D</value>
+      <footprint>keyboard_parts:D_SOD123_axial</footprint>
+      <libsource lib="macropadUSBC-rescue" part="D-keyboard_parts" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EDD6F90</tstamp>
+    </comp>
+    <comp ref="K14">
+      <value>KEYSW</value>
+      <footprint>keebs:Mx_Alps_100</footprint>
+      <libsource lib="macropadUSBC-rescue" part="KEYSW-keyboard_parts" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EDD6F99</tstamp>
+    </comp>
+    <comp ref="D14">
+      <value>D</value>
+      <footprint>keyboard_parts:D_SOD123_axial</footprint>
+      <libsource lib="macropadUSBC-rescue" part="D-keyboard_parts" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EDD6F9F</tstamp>
+    </comp>
+    <comp ref="K15">
+      <value>KEYSW</value>
+      <footprint>keebs:Mx_Alps_100</footprint>
+      <libsource lib="macropadUSBC-rescue" part="KEYSW-keyboard_parts" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EDD6FA8</tstamp>
+    </comp>
+    <comp ref="D15">
+      <value>D</value>
+      <footprint>keyboard_parts:D_SOD123_axial</footprint>
+      <libsource lib="macropadUSBC-rescue" part="D-keyboard_parts" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EDD6FAE</tstamp>
+    </comp>
+    <comp ref="K16">
+      <value>KEYSW</value>
+      <footprint>keebs:Mx_Alps_100</footprint>
+      <libsource lib="macropadUSBC-rescue" part="KEYSW-keyboard_parts" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EDDC3CD</tstamp>
+    </comp>
+    <comp ref="D16">
+      <value>D</value>
+      <footprint>keyboard_parts:D_SOD123_axial</footprint>
+      <libsource lib="macropadUSBC-rescue" part="D-keyboard_parts" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EDDC3D3</tstamp>
+    </comp>
+    <comp ref="K17">
+      <value>KEYSW</value>
+      <footprint>keebs:Mx_Alps_100</footprint>
+      <libsource lib="macropadUSBC-rescue" part="KEYSW-keyboard_parts" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EDDC3DB</tstamp>
+    </comp>
+    <comp ref="D17">
+      <value>D</value>
+      <footprint>keyboard_parts:D_SOD123_axial</footprint>
+      <libsource lib="macropadUSBC-rescue" part="D-keyboard_parts" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EDDC3E1</tstamp>
+    </comp>
+    <comp ref="K18">
+      <value>KEYSW</value>
+      <footprint>keebs:Mx_Alps_100</footprint>
+      <libsource lib="macropadUSBC-rescue" part="KEYSW-keyboard_parts" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EDDC3EA</tstamp>
+    </comp>
+    <comp ref="D18">
+      <value>D</value>
+      <footprint>keyboard_parts:D_SOD123_axial</footprint>
+      <libsource lib="macropadUSBC-rescue" part="D-keyboard_parts" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EDDC3F0</tstamp>
+    </comp>
+    <comp ref="K19">
+      <value>KEYSW</value>
+      <footprint>keebs:Mx_Alps_100</footprint>
+      <libsource lib="macropadUSBC-rescue" part="KEYSW-keyboard_parts" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EDDC3F9</tstamp>
+    </comp>
+    <comp ref="D19">
+      <value>D</value>
+      <footprint>keyboard_parts:D_SOD123_axial</footprint>
+      <libsource lib="macropadUSBC-rescue" part="D-keyboard_parts" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EDDC3FF</tstamp>
+    </comp>
+    <comp ref="K20">
+      <value>KEYSW</value>
+      <footprint>keebs:Mx_Alps_100</footprint>
+      <libsource lib="macropadUSBC-rescue" part="KEYSW-keyboard_parts" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EDDC408</tstamp>
+    </comp>
+    <comp ref="D20">
+      <value>D</value>
+      <footprint>keyboard_parts:D_SOD123_axial</footprint>
+      <libsource lib="macropadUSBC-rescue" part="D-keyboard_parts" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EDDC40E</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <libsource lib="macropadUSBC-rescue" part="C-keyboard_parts" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ED90910</tstamp>
+    </comp>
+    <comp ref="USBC1">
+      <value>HRO-TYPE-C-31-M-12</value>
+      <libsource lib="Type-C" part="HRO-TYPE-C-31-M-12" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EDA4884</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>5.1k</value>
+      <libsource lib="macropadUSBC-rescue" part="R-keyboard_parts" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EE76A5D</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>5.1k</value>
+      <libsource lib="macropadUSBC-rescue" part="R-keyboard_parts" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EE7743A</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Type-C" part="HRO-TYPE-C-31-M-12">
+      <fields>
+        <field name="Reference">USB</field>
+        <field name="Value">HRO-TYPE-C-31-M-12</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="input"/>
+        <pin num="2" name="VBUS" type="input"/>
+        <pin num="3" name="SBU2" type="input"/>
+        <pin num="4" name="CC1" type="input"/>
+        <pin num="5" name="DN2" type="input"/>
+        <pin num="6" name="DP1" type="input"/>
+        <pin num="7" name="DN1" type="input"/>
+        <pin num="8" name="DP2" type="input"/>
+        <pin num="9" name="SBU1" type="input"/>
+        <pin num="10" name="CC2" type="input"/>
+        <pin num="11" name="VBUS" type="input"/>
+        <pin num="12" name="GND" type="input"/>
+        <pin num="13" name="SHIELD" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="macropadUSBC-rescue" part="ATMEGA32U2-keyboard_parts">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ATMEGA32U2-keyboard_parts</field>
+      </fields>
+      <pins>
+        <pin num="1" name="XTAL1" type="input"/>
+        <pin num="2" name="XTAL2" type="output"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="VCC" type="power_in"/>
+        <pin num="5" name="PC2" type="BiDi"/>
+        <pin num="6" name="PD0" type="BiDi"/>
+        <pin num="7" name="PD1" type="BiDi"/>
+        <pin num="8" name="PD2/RXD1" type="BiDi"/>
+        <pin num="9" name="PD3/TXD1" type="BiDi"/>
+        <pin num="10" name="PD4" type="BiDi"/>
+        <pin num="11" name="PD5" type="BiDi"/>
+        <pin num="12" name="PD6" type="BiDi"/>
+        <pin num="13" name="PD7/~HWB" type="input"/>
+        <pin num="14" name="PB0" type="BiDi"/>
+        <pin num="15" name="PB1" type="BiDi"/>
+        <pin num="16" name="PB2" type="BiDi"/>
+        <pin num="17" name="PB3" type="BiDi"/>
+        <pin num="18" name="PB4" type="BiDi"/>
+        <pin num="19" name="PB5" type="BiDi"/>
+        <pin num="20" name="PB6" type="BiDi"/>
+        <pin num="21" name="PB7" type="BiDi"/>
+        <pin num="22" name="PC7" type="BiDi"/>
+        <pin num="23" name="PC6" type="BiDi"/>
+        <pin num="24" name="~RESET" type="input"/>
+        <pin num="25" name="PC5" type="BiDi"/>
+        <pin num="26" name="PC4" type="BiDi"/>
+        <pin num="27" name="UCap" type="input"/>
+        <pin num="28" name="UGND" type="power_in"/>
+        <pin num="29" name="D+" type="BiDi"/>
+        <pin num="30" name="D-" type="BiDi"/>
+        <pin num="31" name="UVCC" type="power_in"/>
+        <pin num="32" name="AVCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="macropadUSBC-rescue" part="C-keyboard_parts">
+      <footprints>
+        <fp>SM*</fp>
+        <fp>C?</fp>
+        <fp>C1-1</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C-keyboard_parts</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="macropadUSBC-rescue" part="D-keyboard_parts">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D-keyboard_parts</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="macropadUSBC-rescue" part="KEYSW-keyboard_parts">
+      <fields>
+        <field name="Reference">K?</field>
+        <field name="Value">KEYSW-keyboard_parts</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="macropadUSBC-rescue" part="R-keyboard_parts">
+      <footprints>
+        <fp>R?</fp>
+        <fp>SM0603</fp>
+        <fp>SM0805</fp>
+        <fp>R?-*</fp>
+        <fp>SM1206</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R-keyboard_parts</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="macropadUSBC-rescue" part="SW_PUSH-keyboard_parts">
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_PUSH-keyboard_parts</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="macropadUSBC-rescue" part="XTAL_GND-keyboard_parts">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">XTAL_GND-keyboard_parts</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Device">
+      <uri>D:\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="Type-C">
+      <uri>C:/Users/Fireo/Desktop/Type-C.pretty-master/Type-C.lib</uri>
+    </library>
+    <library logical="macropadUSBC-rescue">
+      <uri>C:\Users\Fireo\Desktop\pcb\USBCmacropad/macropadUSBC-rescue.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/column2">
+      <node ref="K13" pin="1"/>
+      <node ref="K12" pin="1"/>
+      <node ref="K11" pin="1"/>
+      <node ref="ATMEGA32U2" pin="21"/>
+      <node ref="K15" pin="1"/>
+      <node ref="K14" pin="1"/>
+    </net>
+    <net code="2" name="/column1">
+      <node ref="K10" pin="1"/>
+      <node ref="K9" pin="1"/>
+      <node ref="ATMEGA32U2" pin="20"/>
+      <node ref="K6" pin="1"/>
+      <node ref="K8" pin="1"/>
+      <node ref="K7" pin="1"/>
+    </net>
+    <net code="3" name="/column0">
+      <node ref="K3" pin="1"/>
+      <node ref="K5" pin="1"/>
+      <node ref="K4" pin="1"/>
+      <node ref="K1" pin="1"/>
+      <node ref="ATMEGA32U2" pin="19"/>
+      <node ref="K2" pin="1"/>
+    </net>
+    <net code="4" name="/row4">
+      <node ref="D10" pin="1"/>
+      <node ref="ATMEGA32U2" pin="18"/>
+      <node ref="D15" pin="1"/>
+      <node ref="D5" pin="1"/>
+      <node ref="D20" pin="1"/>
+    </net>
+    <net code="5" name="/row3">
+      <node ref="D14" pin="1"/>
+      <node ref="D9" pin="1"/>
+      <node ref="ATMEGA32U2" pin="17"/>
+      <node ref="D4" pin="1"/>
+      <node ref="D19" pin="1"/>
+    </net>
+    <net code="6" name="Net-(D20-Pad2)">
+      <node ref="D20" pin="2"/>
+      <node ref="K20" pin="2"/>
+    </net>
+    <net code="7" name="Net-(D19-Pad2)">
+      <node ref="D19" pin="2"/>
+      <node ref="K19" pin="2"/>
+    </net>
+    <net code="8" name="Net-(D18-Pad2)">
+      <node ref="K18" pin="2"/>
+      <node ref="D18" pin="2"/>
+    </net>
+    <net code="9" name="Net-(D17-Pad2)">
+      <node ref="K17" pin="2"/>
+      <node ref="D17" pin="2"/>
+    </net>
+    <net code="10" name="/row2">
+      <node ref="D13" pin="1"/>
+      <node ref="D8" pin="1"/>
+      <node ref="ATMEGA32U2" pin="16"/>
+      <node ref="D3" pin="1"/>
+      <node ref="D18" pin="1"/>
+    </net>
+    <net code="11" name="/row1">
+      <node ref="D17" pin="1"/>
+      <node ref="D12" pin="1"/>
+      <node ref="D7" pin="1"/>
+      <node ref="ATMEGA32U2" pin="15"/>
+      <node ref="D2" pin="1"/>
+    </net>
+    <net code="12" name="/row0">
+      <node ref="D1" pin="1"/>
+      <node ref="ATMEGA32U2" pin="14"/>
+      <node ref="D11" pin="1"/>
+      <node ref="D6" pin="1"/>
+      <node ref="D16" pin="1"/>
+    </net>
+    <net code="13" name="Net-(R4-Pad1)">
+      <node ref="R4" pin="1"/>
+      <node ref="USBC1" pin="6"/>
+      <node ref="USBC1" pin="8"/>
+    </net>
+    <net code="14" name="Net-(R3-Pad1)">
+      <node ref="R3" pin="1"/>
+      <node ref="USBC1" pin="5"/>
+      <node ref="USBC1" pin="7"/>
+    </net>
+    <net code="15" name="Net-(USBC1-Pad11)">
+      <node ref="USBC1" pin="11"/>
+    </net>
+    <net code="16" name="Net-(R6-Pad1)">
+      <node ref="R6" pin="1"/>
+      <node ref="USBC1" pin="10"/>
+    </net>
+    <net code="17" name="Net-(USBC1-Pad9)">
+      <node ref="USBC1" pin="9"/>
+    </net>
+    <net code="18" name="Net-(USBC1-Pad3)">
+      <node ref="USBC1" pin="3"/>
+    </net>
+    <net code="19" name="Net-(R5-Pad1)">
+      <node ref="USBC1" pin="4"/>
+      <node ref="R5" pin="1"/>
+    </net>
+    <net code="20" name="Earth">
+      <node ref="R5" pin="2"/>
+      <node ref="R6" pin="2"/>
+    </net>
+    <net code="21" name="Net-(ATMEGA32U2-Pad23)">
+      <node ref="ATMEGA32U2" pin="23"/>
+    </net>
+    <net code="22" name="GND">
+      <node ref="R2" pin="2"/>
+      <node ref="ATMEGA32U2" pin="28"/>
+      <node ref="ATMEGA32U2" pin="3"/>
+      <node ref="X1" pin="3"/>
+      <node ref="C1" pin="2"/>
+      <node ref="USBC1" pin="12"/>
+      <node ref="USBC1" pin="1"/>
+      <node ref="USBC1" pin="13"/>
+      <node ref="SW1" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C8" pin="1"/>
+      <node ref="C2" pin="2"/>
+    </net>
+    <net code="23" name="Net-(ATMEGA32U2-Pad12)">
+      <node ref="ATMEGA32U2" pin="12"/>
+    </net>
+    <net code="24" name="Net-(ATMEGA32U2-Pad11)">
+      <node ref="ATMEGA32U2" pin="11"/>
+    </net>
+    <net code="25" name="Net-(ATMEGA32U2-Pad10)">
+      <node ref="ATMEGA32U2" pin="10"/>
+    </net>
+    <net code="26" name="Net-(ATMEGA32U2-Pad9)">
+      <node ref="ATMEGA32U2" pin="9"/>
+    </net>
+    <net code="27" name="Net-(ATMEGA32U2-Pad8)">
+      <node ref="ATMEGA32U2" pin="8"/>
+    </net>
+    <net code="28" name="Net-(ATMEGA32U2-Pad7)">
+      <node ref="ATMEGA32U2" pin="7"/>
+    </net>
+    <net code="29" name="Net-(ATMEGA32U2-Pad6)">
+      <node ref="ATMEGA32U2" pin="6"/>
+    </net>
+    <net code="30" name="Net-(ATMEGA32U2-Pad26)">
+      <node ref="ATMEGA32U2" pin="26"/>
+    </net>
+    <net code="31" name="Net-(ATMEGA32U2-Pad25)">
+      <node ref="ATMEGA32U2" pin="25"/>
+    </net>
+    <net code="32" name="/column3">
+      <node ref="K20" pin="1"/>
+      <node ref="K16" pin="1"/>
+      <node ref="ATMEGA32U2" pin="22"/>
+      <node ref="K17" pin="1"/>
+      <node ref="K19" pin="1"/>
+      <node ref="K18" pin="1"/>
+    </net>
+    <net code="33" name="VCC">
+      <node ref="ATMEGA32U2" pin="32"/>
+      <node ref="R1" pin="1"/>
+      <node ref="ATMEGA32U2" pin="4"/>
+      <node ref="ATMEGA32U2" pin="31"/>
+      <node ref="C3" pin="1"/>
+      <node ref="C6" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="USBC1" pin="2"/>
+    </net>
+    <net code="34" name="Net-(ATMEGA32U2-Pad27)">
+      <node ref="C8" pin="2"/>
+      <node ref="ATMEGA32U2" pin="27"/>
+    </net>
+    <net code="35" name="Net-(ATMEGA32U2-Pad5)">
+      <node ref="ATMEGA32U2" pin="5"/>
+    </net>
+    <net code="36" name="Net-(ATMEGA32U2-Pad30)">
+      <node ref="ATMEGA32U2" pin="30"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="37" name="Net-(ATMEGA32U2-Pad29)">
+      <node ref="ATMEGA32U2" pin="29"/>
+      <node ref="R4" pin="2"/>
+    </net>
+    <net code="38" name="Net-(ATMEGA32U2-Pad2)">
+      <node ref="ATMEGA32U2" pin="2"/>
+      <node ref="C2" pin="1"/>
+      <node ref="X1" pin="2"/>
+    </net>
+    <net code="39" name="Net-(ATMEGA32U2-Pad1)">
+      <node ref="ATMEGA32U2" pin="1"/>
+      <node ref="X1" pin="1"/>
+      <node ref="C1" pin="1"/>
+    </net>
+    <net code="40" name="Net-(ATMEGA32U2-Pad13)">
+      <node ref="R2" pin="1"/>
+      <node ref="ATMEGA32U2" pin="13"/>
+    </net>
+    <net code="41" name="Net-(ATMEGA32U2-Pad24)">
+      <node ref="R1" pin="2"/>
+      <node ref="SW1" pin="1"/>
+      <node ref="ATMEGA32U2" pin="24"/>
+    </net>
+    <net code="42" name="Net-(D1-Pad2)">
+      <node ref="K1" pin="2"/>
+      <node ref="D1" pin="2"/>
+    </net>
+    <net code="43" name="Net-(D11-Pad2)">
+      <node ref="K11" pin="2"/>
+      <node ref="D11" pin="2"/>
+    </net>
+    <net code="44" name="Net-(D13-Pad2)">
+      <node ref="K13" pin="2"/>
+      <node ref="D13" pin="2"/>
+    </net>
+    <net code="45" name="Net-(D12-Pad2)">
+      <node ref="K12" pin="2"/>
+      <node ref="D12" pin="2"/>
+    </net>
+    <net code="46" name="Net-(D10-Pad2)">
+      <node ref="D10" pin="2"/>
+      <node ref="K10" pin="2"/>
+    </net>
+    <net code="47" name="Net-(D9-Pad2)">
+      <node ref="K9" pin="2"/>
+      <node ref="D9" pin="2"/>
+    </net>
+    <net code="48" name="Net-(D15-Pad2)">
+      <node ref="D15" pin="2"/>
+      <node ref="K15" pin="2"/>
+    </net>
+    <net code="49" name="Net-(D16-Pad2)">
+      <node ref="D16" pin="2"/>
+      <node ref="K16" pin="2"/>
+    </net>
+    <net code="50" name="Net-(D14-Pad2)">
+      <node ref="K14" pin="2"/>
+      <node ref="D14" pin="2"/>
+    </net>
+    <net code="51" name="Net-(D3-Pad2)">
+      <node ref="K3" pin="2"/>
+      <node ref="D3" pin="2"/>
+    </net>
+    <net code="52" name="Net-(D5-Pad2)">
+      <node ref="K5" pin="2"/>
+      <node ref="D5" pin="2"/>
+    </net>
+    <net code="53" name="Net-(D4-Pad2)">
+      <node ref="K4" pin="2"/>
+      <node ref="D4" pin="2"/>
+    </net>
+    <net code="54" name="Net-(D2-Pad2)">
+      <node ref="K2" pin="2"/>
+      <node ref="D2" pin="2"/>
+    </net>
+    <net code="55" name="Net-(D7-Pad2)">
+      <node ref="D7" pin="2"/>
+      <node ref="K7" pin="2"/>
+    </net>
+    <net code="56" name="Net-(D8-Pad2)">
+      <node ref="K8" pin="2"/>
+      <node ref="D8" pin="2"/>
+    </net>
+    <net code="57" name="Net-(D6-Pad2)">
+      <node ref="D6" pin="2"/>
+      <node ref="K6" pin="2"/>
+    </net>
+  </nets>
+</export>
